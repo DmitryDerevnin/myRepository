@@ -1,6 +1,8 @@
 public class MainClass {
     public static void main(String[] args) {
-        System.out.println("Hi");
+        Calculator calc = new Calculator();
+        System.out.println(calc.addition(5, 7));
+        System.out.println(calc.subtraction(86, 15));
 
     }
 }
